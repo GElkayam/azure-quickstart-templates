@@ -11,7 +11,7 @@ This template creates the following resources:
 
 A SQL Server always on listener is created using the internal load balancer.
 
-For nested templates and DSC resources specific to SQL Server AlwaysOn, this template references these resources from this <a href="https://github.com/Azure/azure-quickstart-templates/tree/master/sql-server-2014-alwayson-dsc">SQL Server AlwaysOn AG QuickStart</a> template repository.
+For nested templates and DSC resources specific to SQL Server AlwaysOn, this template references these resources from this <a href="https://github.com/GElkayam/azure-quickstart-templates/tree/master/sql-server-2012-alwayson-dsc">SQL Server AlwaysOn AG QuickStart</a> template repository.
 
 # Known Issues
 
@@ -31,14 +31,14 @@ This template is serial in nature for deploying some of the resources, due to so
 
 +	To successfully deploy this template, be sure that the subnet to which the SQL VMs are being deployed already exists on the specified Azure virtual network, AND this subnet should be defined in Active Directory Sites and Services for the appropriate AD site in which the closest domain controllers are configured.
 
-+ To deploy the required Azure VNET and Active Directory infrastructure, if not already in place, you may use <a href="https://github.com/Azure/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc">this template</a>.
++ To deploy the required Azure VNET and Active Directory infrastructure, if not already in place, you may use <a href="https://github.com/GElkayam/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc">this template</a>.
 
 Click the button below to deploy from the portal
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fsql-server-2014-alwayson-existing-vnet-and-ad%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGElkayam%2Fazure-quickstart-templates%2Fmaster%2Fsql-server-2012-alwayson-existing-vnet-and-ad%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fsql-server-2014-alwayson-existing-vnet-and-ad%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FGElkayam%2Fazure-quickstart-templates%2Fmaster%2Fsql-server-2012-alwayson-existing-vnet-and-ad%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
